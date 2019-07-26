@@ -1,0 +1,14 @@
+BEGIN options
+  SAVE_FLOWS
+  NEWTON  UNDER_RELAXATION
+END options
+
+BEGIN packages
+  disu6  mf6_webinar.disu  disu
+  riv6  mf6_webinar.riv  riv_0
+  wel6  mf6_webinar.wel  wel
+  npf6  mf6_webinar.npf  npf
+  ic6  mf6_webinar.ic  ic
+  oc6  mf6_webinar.oc  oc
+END packages
+

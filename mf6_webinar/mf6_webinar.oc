@@ -1,0 +1,10 @@
+BEGIN options
+  BUDGET  FILEOUT  mf6_webinar.cbc
+  HEAD  FILEOUT  mf6_webinar.hds
+END options
+
+BEGIN period  1
+  SAVE  head  all
+  SAVE  budget  all
+END period  1
+

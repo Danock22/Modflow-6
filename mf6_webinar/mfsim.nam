@@ -1,0 +1,18 @@
+BEGIN options
+END options
+
+BEGIN timing
+  TDIS6  mf6_webinar.tdis
+END timing
+
+BEGIN models
+  gwf6  mf6_webinar.nam  mf6_webinar
+END models
+
+BEGIN exchanges
+END exchanges
+
+BEGIN solutiongroup  1
+  ims6  mf6_webinar.ims  mf6_webinar
+END solutiongroup  1
+
