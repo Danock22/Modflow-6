@@ -1,0 +1,10 @@
+BEGIN options
+  BUDGET  FILEOUT  mf6_model.cbc
+  HEAD  FILEOUT  mf6_model.hds
+END options
+
+BEGIN period  1
+  SAVE  HEAD  ALL
+  SAVE  BUDGET  ALL
+END period  1
+

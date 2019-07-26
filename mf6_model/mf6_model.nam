@@ -1,0 +1,13 @@
+BEGIN options
+  SAVE_FLOWS
+END options
+
+BEGIN packages
+  DISU6  mf6_model.disu  disu
+  RIV6  mf6_model.riv  riv_0
+  WEL6  mf6_model.wel  wel
+  NPF6  mf6_model.npf  npf
+  IC6  mf6_model.ic  ic
+  OC6  mf6_model.oc  oc
+END packages
+
